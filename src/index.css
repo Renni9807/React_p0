@@ -39,3 +39,12 @@ img {
 p {
   margin-bottom: 0.5em;
 }
+
+.bookName {
+  font-weight: 700;
+}
+
+.bookAuthor {
+  font-weight: 700;
+  color: grey;
+}

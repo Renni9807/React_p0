@@ -17,22 +17,22 @@ const BookList = () => {
               alt="Interesting Facts For Curious Minds"
               srcset=""
             />
-            <p>Interesting Facts For Curious Minds</p>
-            <p>Jordan Moore</p>
+            <p className="bookName">Interesting Facts For Curious Minds</p>
+            <p className="bookAuthor">Jordan Moore</p>
           </div>
         </li>
         <li>
           <div className="book">
             <img src={book2} alt="Atomic Habits" srcset="" />
-            <p>Atomic Habits</p>
-            <p>James Clear</p>
+            <p className="bookName">Atomic Habits</p>
+            <p className="bookAuthor">James Clear</p>
           </div>
         </li>
         <li>
           <div className="book">
             <img src={book3} alt="Fairy Tale" srcset="" />
-            <p>Fairy Tale</p>
-            <p>Stephen King</p>
+            <p className="bookName">Fairy Tale</p>
+            <p className="bookAuthor">Stephen King</p>
           </div>
         </li>
       </ul>

@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(231, 245, 239);
+  background-color: #f1f5f8;
 }
 
 #root {
@@ -14,6 +14,7 @@ body {
 
 h1 {
   margin: 3em 0;
+  font-size: 2em;
 }
 
 ul {

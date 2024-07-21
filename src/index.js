@@ -12,25 +12,21 @@ const BookList = () => {
       <ul>
         <li>
           <div className="book">
-            <img
-              src={book1}
-              alt="Interesting Facts For Curious Minds"
-              srcset=""
-            />
+            <img src={book1} alt="Interesting Facts For Curious Minds" />
             <p className="bookName">Interesting Facts For Curious Minds</p>
             <p className="bookAuthor">Jordan Moore</p>
           </div>
         </li>
         <li>
           <div className="book">
-            <img src={book2} alt="Atomic Habits" srcset="" />
+            <img src={book2} alt="Atomic Habits" />
             <p className="bookName">Atomic Habits</p>
             <p className="bookAuthor">James Clear</p>
           </div>
         </li>
         <li>
           <div className="book">
-            <img src={book3} alt="Fairy Tale" srcset="" />
+            <img src={book3} alt="Fairy Tale" />
             <p className="bookName">Fairy Tale</p>
             <p className="bookAuthor">Stephen King</p>
           </div>
